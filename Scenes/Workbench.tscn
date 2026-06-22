@@ -1,0 +1,37 @@
+[gd_scene format=3 uid="uid://b5s122ktgwvsq"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1j2sq"]
+
+[node name="Bench" type="Node2D" unique_id=2057776730]
+
+[node name="Canister" type="Sprite2D" parent="." unique_id=1184621453]
+position = Vector2(113.00001, 79)
+scale = Vector2(7.24, 4.7200003)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Canister" unique_id=411514561]
+position = Vector2(0.13812049, 0)
+shape = SubResource("RectangleShape2D_1j2sq")
+
+[node name="CanisterHolder" type="Sprite2D" parent="." unique_id=1343482055]
+position = Vector2(273.00003, 90.99997)
+scale = Vector2(1.7821479, 5.8784027)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CanisterHolder" unique_id=1554726839]
+position = Vector2(0.13812049, 0)
+shape = SubResource("RectangleShape2D_1j2sq")
+
+[node name="Developer" type="Sprite2D" parent="." unique_id=1556165823]
+position = Vector2(559, 136)
+scale = Vector2(9.339653, -10.405045)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Developer" unique_id=970638165]
+position = Vector2(0.13812049, 0)
+shape = SubResource("RectangleShape2D_1j2sq")
+
+[node name="Rim" type="Sprite2D" parent="." unique_id=1475905310]
+position = Vector2(1014, 90)
+scale = Vector2(-12.198483, -7.552567)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Rim" unique_id=216498504]
+position = Vector2(0.13812049, 0)
+shape = SubResource("RectangleShape2D_1j2sq")
